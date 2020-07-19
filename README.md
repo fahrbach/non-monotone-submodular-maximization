@@ -5,6 +5,16 @@ This repository contains the source code for the experiments in
 Nearly Optimal Adaptivity and Query Complexity](https://arxiv.org/abs/1808.06932)
 (ICML 2019).
 
+## Summary
+
+We compare the low-adaptivity algorithm for non-monotone submodular maximization
+in this paper with several benchmarks and demonstrate that it consistently finds
+competitive solutions using significantly fewer rounds and queries.
+Our experiments build on those in
+([Balkanski et al., NeurIPS 2018](https://arxiv.org/abs/1807.11462))
+and explore applications of constrained submodular maximization for
+image summarization, movie recommendation, and revenue maximization.
+
 ## Citation
 
 If you find this code useful in your research, we ask that you cite the following paper:
